@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.head{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+}
+
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left img{
+    width: 70px;
+    height:  70px;
+}
+
+.right nav ul  {
+   display: flex;
+   justify-content: space-between;
+}
+
+.right nav ul li{
+    list-style-type: none;
+    margin: 0 25px;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    
+
+}
+
+nav ul li a:hover{
+    font-size: 18px;
+}
+
+.section1{
+    display: flex;
+    justify-content: center;
+}
+
+.left1{
+   text-align: center;
+   padding: 185px 95px; 
+}
+
+.left1 .btn{
+    color: white;
+    background-color:tomato;
+    border: 2px solid red;
+    border-radius: 8px;
+    padding: 8px 5px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.left1 a{
+    text-decoration: none;
+}
+
+.left1 h4{
+    font-size: 28px;
+    font-weight: bolder;
+    color: rgb(250, 165, 8);
+}
+
+.left1 p{
+    font-size: 18px;
+   
+}
+
+.right1{
+    padding: 15px 20px;
+}
+
+.right1 img{
+    width: 350px;
+    height: 450px;
+
+}
+
+ p{
+    font-size: 20px;
+    color: rgb(255, 0, 0);
+    text-align: center;
+    margin: 15px;
+}
+
+.section2 {
+    display: flex;
+    margin-top: 28px;
+
+}
+
+.section2 pre{
+    font-size: 13px;
+}
+
+.section2 img{
+    width: 480px;
+    height: 200px;
+
+}
+
+.first{
+    border:2px solid black;
+    border-radius: 5px;
+    
+}
+
+.second{
+    border: 2px solid black;
+    border-radius: 5px;
+    
+   
+}
+
+.second img{
+    margin-top: 8px;
+}
+
+
+
+.third{
+    border: 2px solid black;
+    border-radius: 5px;
+    
+}
+
+.sec{
+    display: flex;
+    margin-top: 2px;
+    padding-bottom: 23px;
+}
+
+.sec img{
+    width: 480px;
+    height: 200px;
+    
+}
+
+.section3{
+    margin-top: 12px;
+}
+
+.section3 h3{
+    text-align: center;
+    color: rgb(251, 119, 25);
+    font-size: 18px;
+
+}
+
+.heading{
+    font-size: 23px;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    font-weight: bolder;
+    
+}
+
+.para{
+    font-size: 15px;
+    
+}
+
+.boxes{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+    padding: 22px 0;
+}
+
+.one{
+    border: 1px solid black;
+    border-radius: 8px;
+    
+}
+
+.two{
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.three{
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+h6{
+    font-size: 18px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.format{
+    font-size: 18px;
+    color: orchid;
+    
+}
+
+.footer{
+    margin: 12px;
+    text-align: center;
+    font-size: 15px;
+}
+
